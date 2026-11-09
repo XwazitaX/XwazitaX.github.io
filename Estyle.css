@@ -1,31 +1,109 @@
-img{
-	position: relative;
-	width: 105px;
-	height: auto;
-	left: 65px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-body{
-	background-color: red;
-	max-width: 600px;
+body {
+  background-color: red; /* Color rojo de tu tercera imagen */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h2{
-	position: relative;
-	color: white;
-	left: 75px;
+/* Rectángulo azul en la parte superior */
+.banner-azul {
+  width: 100%;
+  background-color: #0056b3;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: bold;
+  font-size: 16px;
 }
 
-p{ 
-	position: relative;
-	color: white;
-	left: 75px;
+/* Contenedor principal centrado */
+.contenedor-alerta {
+  max-width: 650px;
+  width: 90%;
+  margin: auto; /* Centra horizontal y verticalmente */
+  padding: 20px;
 }
 
-button{
-	position: relative;
-	color: red;
-	width: 140px;
-	height: 30px;
-	left: 500px;
+/* Icono */
+.icono-alerta img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Encabezado */
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+/* Texto del mensaje */
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+/* Enlaces underline */
+.enlace-texto {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Checkbox y su etiqueta */
+.opcion-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  margin-bottom: 35px;
+}
+
+.opcion-checkbox input[type="checkbox"] {
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+/* Botones alineados a los extremos */
+.contenedor-botones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedor-botones a {
+  text-decoration: none;
+}
+
+/* Botón "Detalles" con borde transparente */
+.btn-detalles {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Botón "Volver a seguridad" blanco */
+.btn-volver {
+  background-color: white;
+  color: red;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
 }
