@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: red; /* Color rojo de tu tercera imagen */
+  background-color: red;
   color: white;
   min-height: 100vh;
   display: flex;
@@ -16,7 +16,7 @@ body {
 
 .banner-azul {
   width: 100%;
-  background-color: #007bff; /* Azul más claro */
+  background-color: #007bff;
   color: white;
   text-align: center;
   padding: 12px 0;
@@ -24,11 +24,10 @@ body {
   font-size: 16px;
 }
 
-/* Contenedor principal centrado */
 .contenedor-alerta {
   max-width: 650px;
   width: 90%;
-  margin: auto; /* Centra horizontal y verticalmente */
+  margin: auto;
   padding: 20px;
 }
 
@@ -60,12 +59,21 @@ p {
   align-items: flex-start;
   gap: 10px;
   font-size: 13px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .opcion-checkbox input[type="checkbox"] {
   margin-top: 3px;
   cursor: pointer;
+}
+
+.nota-indicativa {
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 8px 12px;
+  border-radius: 4px;
+  border-left: 4px solid #fff;
+  margin-bottom: 25px;
 }
 
 .contenedor-botones {
