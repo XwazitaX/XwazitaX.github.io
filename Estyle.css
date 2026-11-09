@@ -14,10 +14,9 @@ body {
   align-items: center;
 }
 
-/* Rectángulo azul en la parte superior */
 .banner-azul {
   width: 100%;
-  background-color: #0056b3;
+  background-color: #007bff; /* Azul más claro */
   color: white;
   text-align: center;
   padding: 12px 0;
@@ -33,34 +32,29 @@ body {
   padding: 20px;
 }
 
-/* Icono */
 .icono-alerta img {
   width: 80px;
   height: auto;
   margin-bottom: 20px;
 }
 
-/* Encabezado */
 h2 {
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: normal;
 }
 
-/* Texto del mensaje */
 p {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 25px;
 }
 
-/* Enlaces underline */
 .enlace-texto {
   color: white;
   text-decoration: underline;
 }
 
-/* Checkbox y su etiqueta */
 .opcion-checkbox {
   display: flex;
   align-items: flex-start;
@@ -74,7 +68,6 @@ p {
   cursor: pointer;
 }
 
-/* Botones alineados a los extremos */
 .contenedor-botones {
   display: flex;
   justify-content: space-between;
@@ -85,7 +78,6 @@ p {
   text-decoration: none;
 }
 
-/* Botón "Detalles" con borde transparente */
 .btn-detalles {
   background: transparent;
   color: white;
@@ -96,7 +88,6 @@ p {
   font-size: 14px;
 }
 
-/* Botón "Volver a seguridad" blanco */
 .btn-volver {
   background-color: white;
   color: red;
