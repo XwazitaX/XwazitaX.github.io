@@ -1,23 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<link rel="stylesheet" href="Estyle.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CiberSeguridad</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciberseguridad</title>
+  <link rel="stylesheet" href="Estyle.css">
 </head>
-	<body>
-		<br><br><br>
-		<img src="Alerta.png">
-		<br>
-		<h2>Este sitio web contiene software malicioso</h1>
+<body>
+  <header class="banner-azul">
+    Página de representación
+  </header>
 
-		<p>Es posible que los atacantes que actualmente se encuentran en<br>tu dispositivo intenten instalar programas peligrosos en tu dispositivo <br> para robar o borrar informacion (p.ej, fotos , contraseñas , mensajes y tarjetas de credito).<br><u>Más informacion<u></p>
-		<br>
-		<a href="https://forms.gle/uTTixvbMbFVKRjmdA" class="boton-redireccion">
-			<button type="button">
-			Volver a seguridad
-			</button>
-		</a>
-	</body>
+  <main class="contenedor-alerta">
+    
+    <div class="icono-alerta">
+      <img src="Alerta.png" alt="Icono de advertencia">
+    </div>
+
+    <h2>Este sitio web contiene software malicioso</h2>
+
+    <p>
+      Es posible que los atacantes que actualmente se encuentran en tu dispositivo intenten instalar programas peligrosos en tu computadora para robar o borrar información (p. ej., fotos, contraseñas, mensajes y tarjetas de crédito). 
+      <br>
+      <a href="#" class="enlace-texto">Más información</a>
+    </p>
+
+    <div class="opcion-checkbox">
+      <input type="checkbox" id="navegacion-segura">
+      <label for="navegacion-segura">
+        Para mejorar la Navegación segura, envía <a href="#" class="enlace-texto">información del sistema y contenido de la página</a> a Google. <a href="#" class="enlace-texto">Política de Privacidad</a>
+      </label>
+    </div>
+
+    <div class="contenedor-botones">
+      <button type="button" class="btn-detalles">Detalles</button>
+      <a href="https://forms.gle/uTTixvbMbFVKRjmdA" class="boton-redireccion">
+        <button type="button" class="btn-volver">Volver a seguridad</button>
+      </a>
+    </div>
+
+  </main>
+
+</body>
 </html>
