@@ -119,9 +119,3 @@ p {
   height: auto;
 }
 
-@media (min-width: 1024px) {
-  .imagen-gato {
-    width: 60px;
-  }
-}
-
