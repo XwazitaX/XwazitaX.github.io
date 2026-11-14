@@ -109,12 +109,12 @@ p {
 
 .contenedor-gato {
   display: flex;
-  justify-content: flex-end; /* Alinea la imagen a la derecha */
-  padding: 10px 20px 0 0;    /* Separa un poco del banner y del borde derecho */
+  justify-content: flex-end;
+  padding: 0;
+  width: 100%;
 }
 
 .imagen-gato {
-  width: 60px;               /* Ajusta este valor según qué tan pequeño lo quieras */
+  width: 30px;
   height: auto;
 }
-
