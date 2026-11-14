@@ -106,3 +106,15 @@ p {
   cursor: pointer;
   font-size: 14px;
 }
+
+.contenedor-gato {
+  display: flex;
+  justify-content: flex-end; /* Alinea la imagen a la derecha */
+  padding: 10px 20px 0 0;    /* Separa un poco del banner y del borde derecho */
+}
+
+.imagen-gato {
+  width: 60px;               /* Ajusta este valor según qué tan pequeño lo quieras */
+  height: auto;
+}
+
